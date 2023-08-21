@@ -50,6 +50,7 @@ class BackgroundTimer {
         this.backgroundClockMethod(callback, delay);
       },
     );
+    console.log('backgroundListener: ', this.backgroundListener)
   }
 
   backgroundClockMethod(callback, delay) {
